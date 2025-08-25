@@ -23,10 +23,7 @@ API_KEY = get_env_var("MIRU_API_KEY")
 WEBHOOK_SECRET = get_env_var("MIRU_WEBHOOK_SECRET")
 
 
-miru_client = Miru(
-    api_key=API_KEY,
-    environment="staging",
-)
+miru_client = Miru(api_key=API_KEY)
 
 
 @app.route("/webhooks/miru", methods=["POST"])
