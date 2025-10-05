@@ -1,3 +1,4 @@
-miru_server_sdk=0.3.1
+git+https://github.com/miruml/python-server-sdk.git@v0.4.1-beta.3
 Flask==3.1.1
 python-dotenv==1
+svix>=1.69.0
