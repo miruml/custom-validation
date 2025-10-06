@@ -171,6 +171,7 @@ def validate_deployment(
         if config_instance.content is None:
             raise ValueError("Config instance content is None")
 
+        # INSERT CUSTOM VALIDATION HERE #
         # do some validation on the config instance
         # ...
         _ = config_instance.content
